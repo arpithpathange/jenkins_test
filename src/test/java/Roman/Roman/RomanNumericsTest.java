@@ -43,6 +43,12 @@ public class RomanNumericsTest {
 		int output = rom.convert("DCCCLXXXVIII");
 		assertEquals(888,output);
 	}
+	@Test
+	public void testRomanToTesRandom() {
+		//int output = rom.convert("DCCCLXXXVIII");
+		int output = rom.convert("DCCCLXXXVIII");
+		assertEquals(8880,output);
+	}
 	
 
 
